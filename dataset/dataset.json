@@ -1,0 +1,114 @@
+{
+"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Morning", "Evening", "Good afternoon", "Hey there", "Hi there", "Anyone available?", "Greetings"],
+         "responses": ["Hello! I'm the State University of Malang chatbot. How can I help you today?", "Hi! Welcome to State University of Malang's virtual assistant. What can I do for you?", "Greetings! I'm here to help you with information about State University of Malang."],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Goodbye! Feel free to ask more questions about State University of Malang anytime!"],
+         "context_set": ""
+        },
+        {"tag": "general_info",
+         "patterns": ["What is State University of Malang?", "Tell me about UM", "What kind of university is this?", "University information"],
+         "responses": ["State University of Malang (UM) is a public university located in Malang, East Java, Indonesia. It was established in 1954 and is one of Indonesia's leading institutions in education and teacher training."],
+         "context_set": ""
+        },
+        {"tag": "location",
+         "patterns": ["Where is the university located?", "What's the address?", "How can I reach the campus?", "Campus location"],
+         "responses": ["The main campus of State University of Malang is located at Jalan Semarang 5, Malang, East Java, Indonesia."],
+         "context_set": ""
+        },
+        {"tag": "faculties",
+         "patterns": ["What faculties are there?", "What can I study?", "Available programs", "Study programs", "Do you offer Computer Science?", "What engineering programs are available?", "Can I study Psychology at UM?", "Does UM have a Law Faculty?", "What language courses are offered?"],
+         "responses": ["State University of Malang has several faculties including: Faculty of Education, Faculty of Letters, Faculty of Mathematics and Natural Sciences, Faculty of Economics, Faculty of Engineering, Faculty of Sport Science, Faculty of Social Sciences, and Faculty of Psychology. UM offers programs in Computer Science, various Engineering fields, Psychology, Languages, Education, and more. However, UM does not have a Law Faculty. Visit our official website for a complete list of faculties and programs."],
+         "context_set": ""
+        },
+        {"tag": "admission",
+         "patterns": ["How can I apply?", "Admission process", "Entry requirements", "How to enroll?", "What are the admission requirements?", "When is the application deadline?", "Can international students apply?", "Is there an entrance exam?", "How do I apply online?", "Do you accept transfer students?", "What is the application fee?"],
+         "responses": ["Admission to UM can be through several paths: SNMPTN (National Entry Selection of Public Universities), SBMPTN (Joint Entry Selection of Public Universities), or Mandiri (Independent) Selection. Each has different requirements and schedules. Admission to UM is through SNMPTN, SBMPTN, or Mandiri Selection. Requirements include academic transcripts, minimum GPA, and possibly an entrance exam. International and transfer students can apply via the International Office. Deadlines and fees are listed on our admissions webpage."],
+         "context_set": ""
+        },
+        {"tag": "academic_calendar",
+         "patterns": ["When does the semester start?", "Academic calendar", "Holiday schedule", "Term dates"],
+         "responses": ["The academic year typically consists of two semesters. The first semester usually starts in August/September, and the second semester starts in February/March."],
+         "context_set": ""
+        },
+        {"tag": "facilities",
+         "patterns": ["What facilities are available?", "Campus facilities", "Student services", "What amenities are there?"],
+         "responses": ["UM offers various facilities including: modern libraries, research laboratories, sports facilities, student center, healthcare center, mosque, cafeterias, and dormitories."],
+         "context_set": ""
+        },
+        {"tag": "research",
+         "patterns": ["Research opportunities", "Research centers", "Research programs", "Research activities"],
+         "responses": ["UM has numerous research centers and programs focusing on education, science, technology, and social sciences. The university actively promotes research collaboration with national and international institutions."],
+         "context_set": ""
+        },
+        {"tag": "international",
+         "patterns": ["International programs", "Student exchange", "International collaboration", "Study abroad", "What programs are available for international students?", "Do you have English-taught programs?", "How can I participate in a student exchange?", "What are the tuition fees for international students?"],
+         "responses": ["UM offers various international programs including student exchange, joint degree programs, and international collaboration opportunities with universities worldwide. UM offers various programs for international students, including English-taught courses and exchange programs. Tuition fees vary by program. Contact the International Office for detailed information on applications and available programs."],
+         "context_set": ""
+        },
+        {"tag": "scholarships",
+         "patterns": ["Are there any scholarships?", "Scholarship opportunities", "Financial aid", "How can I get a scholarship?", "How do I apply for scholarships?", "What scholarships are available for new students?", "Are there scholarships for international students?", "What are the eligibility criteria for scholarships?", "When is the scholarship application deadline?"],
+         "responses": ["UM offers various scholarships including merit-based, need-based, and special scholarships for outstanding achievements in academics, sports, and arts. Check the university's official website for detailed information and application procedures. UM offers scholarships like Bidikmisi, PPA, and others. Eligibility criteria vary; commonly required are academic excellence and financial need. International students may also apply for certain scholarships. Details and deadlines are on the financial aid section of our website."],
+         "context_set": ""
+        },
+        {"tag": "housing",
+         "patterns": ["Do you have dormitories?", "Student housing", "Accommodation options", "Where can I stay?", "How do I apply for dormitories?", "What are the housing costs?", "Are meals included in the dormitories?", "Is off-campus housing available?"],
+         "responses": ["UM provides on-campus dormitories for students. There are also various off-campus housing options available in the surrounding areas. The university's housing office can assist you in finding suitable accommodation. UM provides on-campus dormitories; applications are handled by the housing office. Costs vary by room type. Meals are not typically included. Off-campus housing options are plentiful nearby. The housing office can assist you in finding suitable accommodation."],
+         "context_set": ""
+        },
+        {"tag": "transportation",
+         "patterns": ["How can I get to the campus?", "Transportation options", "Public transport", "Campus shuttle"],
+         "responses": ["UM is accessible by various modes of transportation including public buses, angkot (public minivans), and taxis. The university also provides a campus shuttle service for students and staff."],
+         "context_set": ""
+        },
+        {"tag": "student_organizations",
+         "patterns": ["Are there any student organizations?", "Clubs and societies", "Student activities", "Extracurricular activities"],
+         "responses": ["UM has a wide range of student organizations and clubs including academic societies, cultural clubs, sports teams, and volunteer groups. These organizations provide opportunities for students to develop their skills and interests outside the classroom."],
+         "context_set": ""
+        },
+        {"tag": "career_services",
+         "patterns": ["Do you offer career services?", "Job placement", "Internship opportunities", "Career counseling"],
+         "responses": ["UM's career services office provides various services including career counseling, job placement assistance, internship opportunities, and workshops on resume writing and interview skills to help students prepare for their future careers."],
+         "context_set": ""
+        },
+        {"tag": "alumni",
+         "patterns": ["Alumni network", "Alumni association", "How can I connect with alumni?", "Alumni events"],
+         "responses": ["UM has a strong alumni network that offers various benefits including networking opportunities, career support, and alumni events. The university's alumni association organizes regular events and activities to keep alumni connected with the university and each other."],
+         "context_set": ""
+        },
+        {"tag": "campus_life",
+         "patterns": ["What's student life like?", "Campus culture", "Student experience", "Daily life at UM", "What can I do on campus?", "Are there any events?", "Student activities on weekends", "Campus atmosphere", "What makes UM special?"],
+         "responses": ["Life at UM is vibrant and diverse! Students can enjoy various activities including:\n- Regular cultural and academic events\n- Sports competitions and recreational activities\n- Student-led festivals and celebrations\n- Art performances and exhibitions\n- Campus bazaars and food festivals\n- International student gatherings\nThe campus atmosphere is multicultural and welcoming, with students from various regions of Indonesia and other countries."],
+         "context_set": ""
+        },
+        {"tag": "tuition_fees",
+         "patterns": ["How much is the tuition?", "Cost of studying", "Tuition fees", "Program costs", "How expensive is it?", "Annual fees", "Payment plans", "Fee structure", "Is there a payment installment option?", "Additional costs", "Laboratory fees", "Hidden costs"],
+         "responses": ["Tuition fees at UM vary by program and student status:\n- Undergraduate programs: Rp 5-12 million per semester\n- Graduate programs: Rp 8-15 million per semester\n- International programs: USD 3,000-5,000 per semester\nAdditional costs may include:\n- Registration fee: Rp 500,000\n- Laboratory fees: Varies by program\n- Student activity fee: Rp 300,000/semester\nPayment can be made in installments. Contact our finance office for detailed information about your specific program."],
+         "context_set": ""
+        },
+        {"tag": "research_opportunities",
+         "patterns": ["Research funding", "How to join research projects?", "Research supervisors", "Laboratory access", "Research facilities", "Publication opportunities", "Research collaboration", "Research grants", "Student research programs", "Research internships"],
+         "responses": ["UM offers extensive research opportunities:\n- Student Research Grants Program\n- Collaborative Research Projects with Industry\n- International Research Partnerships\n- Access to state-of-the-art laboratories\n- Publication support in international journals\n- Annual research symposiums\n- Undergraduate research program\n- Graduate research assistantships\nContact your faculty's research office or potential supervisor for specific opportunities."],
+         "context_set": ""
+        },
+        {"tag": "sports_recreation",
+         "patterns": ["Sports facilities", "Gym access", "Sports teams", "Athletic programs", "Recreation center", "Sports clubs", "Fitness classes", "Swimming pool", "Sports events", "Athletic scholarship", "Intramural sports"],
+         "responses": ["UM offers comprehensive sports and recreation facilities:\n- Modern gymnasium with latest equipment\n- Olympic-size swimming pool\n- Multiple sports courts (basketball, volleyball, badminton)\n- Soccer field and running track\n- Tennis courts\n- Fitness classes and personal training\n- Various sports clubs and teams\n- Regular tournaments and competitions\nMost facilities are free for students with valid ID cards."],
+         "context_set": ""
+        },
+        {"tag": "library_services",
+         "patterns": ["Library hours", "Book borrowing", "Digital resources", "Library services", "Online databases", "Study rooms", "Library membership", "Inter-library loan", "Research materials", "Library workshops"],
+         "responses": ["UM's library system offers:\n- 24/7 online access to digital resources\n- Multiple library buildings across campus\n- Over 1 million physical books\n- Access to international journals and databases\n- Group study rooms and individual carrels\n- Library workshops and training sessions\n- Inter-library loan services\n- Special collections and archives\nOperating hours: Monday-Friday 8AM-10PM, Saturday 9AM-5PM"],
+         "context_set": ""
+        },
+        {"tag": "technology_services",
+         "patterns": ["Campus WiFi", "Computer labs", "Student email", "Online learning platform", "Technology support", "Software access", "Printing services", "IT help desk", "Student portal", "Campus apps"],
+         "responses": ["UM provides comprehensive technology services:\n- High-speed WiFi across campus\n- 24/7 computer labs\n- Free Microsoft Office 365 accounts\n- SIAKAD (Academic Information System)\n- E-learning platform\n- Free software licenses for academic use\n- IT support help desk\n- Cloud storage\n- Printing and scanning facilities\nContact IT Support for assistance: support@um.ac.id"],
+         "context_set": ""
+        }
+   ]
+}
